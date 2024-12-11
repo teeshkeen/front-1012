@@ -216,7 +216,7 @@ const loadProducts = async () => {
 };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="bg-slate-400 mx-auto p-4">
       <div className="flex justify-between">
       <h1 className="text-white font-gilroyBold text-2xl sm:text-3xl font-bold mb-4">Уралплата.рф</h1>
       <LogoutButton />
@@ -225,45 +225,45 @@ const loadProducts = async () => {
       <div className="space-x-4">
       <button 
         onClick={() => setIsCategoryModalOpen(true)} 
-        className="bg-blue-500 hover:bg-blue-700 font-gilroyBold text-white font-bold py-2 px-4 rounded-full"
+        className="bg-slate-800 hover:bg-slate-900 font-gilroyBold text-white font-bold py-2 px-4 rounded-full"
       >
         Создать новую категорию
       </button>
 
       <button
         onClick={handleOpenPriceChangeModal}
-        className="bg-blue-500 hover:bg-blue-700 font-gilroyBold text-white font-bold py-2 px-4 rounded-full"
+        className="bg-slate-800 hover:bg-slate-900 font-gilroyBold text-white font-bold py-2 px-4 rounded-full"
       >
         Изменить цены товаров
       </button>
       </div>
 
-      <div className="overflow-y-auto max-h-[calc(90vh-200px)]">
+      <div className="mx-[12px] overflow-y-auto mt-[20px]">
         <ul className="space-y-2">
           {categories.map((category) => (
             <li 
               key={category.id} 
-              className="flex flex-col sm:flex-row justify-between items-start sm:items-center p-2 bg-white rounded shadow hover:bg-gray-50"
+              className="flex flex-col sm:flex-row justify-between items-start text-zinc-950 sm:items-center p-2 bg-slate-600 rounded shadow hover:bg-slate-500"
             >
-              <span className="mb-2 sm:mb-0 font-medium">{category.name}</span>
+              <span className="mb-2 sm:mb-0 font-medium text-white">{category.name}</span>
               <div className="flex flex-wrap gap-2">
                 <button 
                   onClick={() => handleEditCategory(category)} 
-                  className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-2 text-xs sm:text-sm rounded"
+                  className="bg-slate-200 hover:bg-slate-300 text-zinc-950 font-bold py-1 px-2 text-xs sm:text-sm rounded"
                 >
-                  Edit
+                  Изменить
                 </button>
                 <button 
                   onClick={() => handleDeleteCategory(category.id)} 
-                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 text-xs sm:text-sm rounded"
+                  className="bg-slate-200 hover:bg-slate-300 text-zinc-950 font-bold py-1 px-2 text-xs sm:text-sm rounded"
                 >
-                  Delete
+                  Удалить
                 </button>
                 <button 
                   onClick={() => handleOpenProductModal(category.id)} 
-                  className="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 text-xs sm:text-sm rounded"
+                  className="bg-slate-200 hover:bg-slate-300 text-zinc-950 font-bold py-1 px-2 text-xs sm:text-sm rounded"
                 >
-                  Products
+                  Товары
                 </button>
               </div>
             </li>

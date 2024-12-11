@@ -4,70 +4,70 @@ const ExampleCatalogNav = () => {
   return (
     <>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         <li>
-            <CatalogNavItem title={'Random catalog'} />
+            <CatalogNavItem title={'Загрузка...'} />
         </li>
         
     </>

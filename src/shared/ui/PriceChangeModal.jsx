@@ -57,8 +57,12 @@ const PriceChangeModal = ({ isOpen, onClose, onUpdatePrices, products }) => {
                 {showPriceChangeForm && (
                     <ChangePriceForm
                         selectedProducts={selectedProducts}
-                        onUpdatePrices={onUpdatePrices}
-                    />
+                        onUpdatePrices={(...args) => {
+			onUpdatePrices(...args);
+			setSelectedProducts([]);
+			setShowPriceChangeForm(false);
+			}}
+	 />
                 )}
             </div>
         </div>
