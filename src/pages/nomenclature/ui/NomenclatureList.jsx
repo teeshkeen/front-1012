@@ -56,14 +56,14 @@ const NomenclatureList = () => {
         <div className='space-y-4 mb-16 1440:hidden'>
           {category.products.length === 0 ? <NomenclatureCard 
           key={0} 
-          title={"Пример"} 
-          desc={"Описание примера"} 
-          countType={"КГ."} 
-          typeCostFirst={'Наличные'}
-          typeCostSecond={'Безналичные'}
+          title={"Загрузка..."} 
+          desc={"Загрузка..."} 
+          countType={"Загрузка..."} 
+          typeCostFirst={'Загрузка...'}
+          typeCostSecond={'Зашрузка...'}
           image={'https://cdn2.picryl.com/photo/2021/03/17/soviet-armenian-k50-6-electrolytic-capacitors-0d6cca-1024.jpg'} 
-          costFirst={'9 000'} 
-          costSecond={'10 000'}
+          costFirst={'Загрузка...'} 
+          costSecond={'Загрузка...'}
           /> : category.products.slice(0, visibleCount).map(product => (
             <NomenclatureCard 
               key={product.id} 
